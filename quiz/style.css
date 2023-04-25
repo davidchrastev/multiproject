@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #a8c0ff;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: points;
+}
+
+
+section {
+    background: #a8c0ff;
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    padding-top: 80px;
+    overflow-y: hidden;
+}
+
+main {
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    padding: 5px 20px 50px;
+    width: 95%;
+    max-width: 500px;
+    margin: 0 auto 214px;
+}
+
+
+
+
+
+
