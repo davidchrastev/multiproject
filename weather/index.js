@@ -12,11 +12,16 @@ function attachEvents() {
         checkWeather(input.value);
 
     })
-
-
      async function checkWeather(city) {
         const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
+
+        if (response.status === 404) {
+            document.querySelector('.error').style.display = 'block';
+            document.querySelector('.weather').style.display = 'none';
+        }
+
         let data = await response.json();
+
         document.querySelector('.city').innerHTML = data.name;
         temp.innerHTML = Math.round(data.main.temp) + '°c';
         humidity.innerHTML = data.main.humidity + '%';
@@ -34,9 +39,9 @@ function attachEvents() {
             weatherIcon.src = 'images/mist.png';
         }
 
-
-
-         input.value = '';
+        console.log(data);
+        document.querySelector('.weather').style.display = 'block';
+        input.value = '';
     }
 
 
