@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #aaa;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+#random {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#random:hover {
+    background-color: #3e8e41;
+}
+
+#joke {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
