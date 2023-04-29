@@ -12,10 +12,11 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: bisque;
     color: #fff;
     margin: 100px auto 0;
-    border-radius: 20px;
+    border-radius: 50px;
+    border-style: solid;
     padding: 40px 35px;
     text-align: center;
 }
@@ -52,6 +53,40 @@ body {
 .search button img {
     width: 16px;
 }
+
+.country li {
+    padding: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    background: azure;
+    color: #222222;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country li img {
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.country li h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.country li p {
+    font-size: 16px;
+    margin: 0;
+}
+.country li a {
+    color: beige;
+}
+
 
 
 
