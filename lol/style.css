@@ -43,8 +43,10 @@ h1 {
 }
 .card-subtitle {
     margin-top: 5px;
+    font-size: 20px;
     color: #666;
-    font-weight: lighter;
+    display: block;
+    font-weight: bold;
 }
 
 .card-image {

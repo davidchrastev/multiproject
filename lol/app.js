@@ -50,7 +50,7 @@ function attachEvents() {
         <li class="card">
             <img class="card-image" src="${champion.image}"/>
             <h2 class="card-title">${champion.name} "${champion.title}"</h2>           
-            <p class="card-subtitle">Type: ${champion.blurb}</p>
+            <article class="card-subtitle">Type: ${champion.blurb}</article>
             <p class="card-subtitle">
                 Attack: ${champion.attack},<br>
                 Defence: ${champion.defense},<br>
@@ -62,11 +62,18 @@ function attachEvents() {
     `;
         champs.innerHTML += champsString;
     };
+    function toggleChampionDetails(){
+        const more = document.querySelector('.show-more-button');
+        more.addEventListener('click', toggleChampionDetails);
+        const details = document.querySelector('.champion-details');
+        details.style.display = details.style.display === 'none' ? 'block' : 'none';
+        this.textContent = details.style.display === 'none' ? 'Show More' : 'Show Less';
+    };
 
 
     fetchChampions();
 
-    btn.addEventListener('click', fetchSummoner);
+    // btn.addEventListener('click', fetchSummoner);
 
 }
 
