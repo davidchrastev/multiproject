@@ -5,7 +5,8 @@ function attachEvents() {
     let products = [];
     button.addEventListener('click', getRandomJoke);
     const title = document.getElementById('title');
-    function getRandomJoke(event) {
+
+    const getRandomJoke = (event) => {
         event.preventDefault();
         title.innerHTML = '';
         paragraph.innerHTML = '';
@@ -17,14 +18,11 @@ function attachEvents() {
                 console.log(products);
 
                 paragraph.innerHTML = products[6];
-
-
-
-    }).catch(err => {
-        console.log(err);
+            }).then((err) => {
+            console.error(err);
         });
-    }
 
+    }
 
 }
 
