@@ -6,17 +6,14 @@ function attachEvents() {
     // const API_KEY = '?api_key=RGAPI-39fa2939-cd41-4ae2-b865-68b8b77ac7cc';
     const CHAMPION_IMAGE = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/';
     const champs = document.querySelector('.container');
-
-    const fetchSummoner = () => {
-        fetch(BASE_URL + input.value + API_KEY)
-            .then((res) => res.json())
-            .then((data) => {
-                console.log(data);
-            })
-    };
-
+    // const fetchSummoner = () => {
+    //     fetch(BASE_URL + input.value + API_KEY)
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             console.log(data);
+    //         })
+    // };
     const championNames = [];
-
     const fetchChampions = () => {
         fetch(CHAMPIONS_ULR)
             .then((res) => res.json())
@@ -68,13 +65,9 @@ function attachEvents() {
         const details = document.querySelector('.champion-details');
         details.style.display = details.style.display === 'none' ? 'block' : 'none';
         this.textContent = details.style.display === 'none' ? 'Show More' : 'Show Less';
-    };
-
-
+    }
     fetchChampions();
-
     // btn.addEventListener('click', fetchSummoner);
-
 }
 
 attachEvents();
