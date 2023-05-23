@@ -20,7 +20,7 @@ function attachEvents() {
 
         container.toDo.children[1].innerHTML = '';
 
-        fetch(BASE_URL)
+        fetch('http://localhost:8080/tasks/1')
             .then((res) => res.json())
             .then((allProducts) => {
                 currentTasks = Object.values(allProducts);
