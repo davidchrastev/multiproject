@@ -154,6 +154,9 @@ function attachEvents() {
         }
 
         // { src: 'link', href: 'http' }
+	// practicing git
+	// really powerfull
+
         if (attributes) {
             for (const key in attributes) {
                 htmlElement.setAttribute(key, attributes[key])
