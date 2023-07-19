@@ -1,0 +1,173 @@
+[33mcommit 9e050083435b6ee4bb561a84e3b6a9490b3a7185[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Fri Jul 14 20:48:01 2023 +0300
+
+    practing git
+
+[33mcommit c94a91dd3126f47f44870f60327d5b9e44dfdb24[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Fri Jul 14 20:43:38 2023 +0300
+
+    opened the index.html and refactoring from git bash
+
+[33mcommit 9a72cb04ecb45acbb10f40e75e6bee0348bb9652[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Fri Jul 14 20:24:57 2023 +0300
+
+    test creating a folder adding a text file and writing to it from terminal
+
+[33mcommit 4f1af8aacc9c896d6db24e69bf58dc63df0fe309[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Fri Jul 14 20:15:21 2023 +0300
+
+    pushing from terminal
+
+[33mcommit 77750d2fc378b8c03e5d5a206bb4ceb940708c4d[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue May 23 15:26:30 2023 +0300
+
+    Basic search quote engine using the api-ninjas
+
+[33mcommit 1ed2667a891fcbb401a7d719b4b6c19db9bfe2a1[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Mon May 22 16:04:29 2023 +0300
+
+    Using my skills to connect my other project but i am finding difficulty with the cors.
+
+[33mcommit 31f174a6b89bc5e00f9f303abeabd0c44271a040[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Wed May 3 21:10:54 2023 +0300
+
+    Trying to build simple clock but unfortunately not a success for today.
+
+[33mcommit 8b5893b2cce07b43aad259bd5f99be2009103041[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Wed May 3 20:55:31 2023 +0300
+
+    basic refactoring
+
+[33mcommit 8495eb7bc07da455ba7b04f2ec31216cf082ee89[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Wed May 3 20:53:56 2023 +0300
+
+    BASIC REFACTORING
+
+[33mcommit 1d1effd4f71cf9820d2cc4cb3e5520a0ff92d7e1[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue May 2 19:30:24 2023 +0300
+
+    trying to make codexio logo challenge
+
+[33mcommit 983630d47635b2108494d772681addb7858217c8[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue May 2 19:25:35 2023 +0300
+
+    trying to make codexio logo challenge
+
+[33mcommit 04f44a0ec7bd632833aa3d084a3bdac99463b8ed[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Mon May 1 20:17:49 2023 +0300
+
+    League of legends adding more info about the champions
+
+[33mcommit 75f9610d584dbb643049f9717643b1af175ccdaa[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Mon May 1 19:56:56 2023 +0300
+
+    League of legends adding more info about the champions
+
+[33mcommit c0716031e5e6c0654bfbacd764d2227b151f54c9[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Mon May 1 19:45:13 2023 +0300
+
+    League of legends
+
+[33mcommit a076e3cb54d364b74c218e5e9205a2e429f5d1ee[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Mon May 1 19:26:55 2023 +0300
+
+    League of legends
+
+[33mcommit 391f1e75cdeb0117c2d9080e1dbc65a3ad905fc5[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Sat Apr 29 14:30:16 2023 +0300
+
+    Final touches
+
+[33mcommit 4c9bd2ee1977f35b8eada200de60e5ca910cce61[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Sat Apr 29 13:49:11 2023 +0300
+
+    Representing countries with restcountries api
+
+[33mcommit d9b194f403254f47ccccb40a8b3c0312b6e924eb[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Fri Apr 28 17:11:27 2023 +0300
+
+    Basic anime site representing data something like the pokedex project the html and css are the same
+
+[33mcommit 8733618f68f035f805bf70a35f7d1499350b63d7[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Thu Apr 27 20:31:02 2023 +0300
+
+    Pokemon adding style
+
+[33mcommit f44a03c447ca6b3cbf898fee03697e9b1dd1fb6a[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Thu Apr 27 20:29:49 2023 +0300
+
+    Pokemon adding style
+
+[33mcommit 26f4d58bc59f8637bd19f2a911427a04f53e6987[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Thu Apr 27 20:29:00 2023 +0300
+
+    Pokemon api
+
+[33mcommit 56258e36dfa5d688241d6660b848ff93d179d2bf[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Wed Apr 26 16:28:02 2023 +0300
+
+    Adding a style to the quiz
+
+[33mcommit ab8814d2a94e6269fe4c7f3cd5bf8ee3c774608a[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Wed Apr 26 16:10:02 2023 +0300
+
+    Fully working quiz
+
+[33mcommit b9522d5a0f6ec47db3dfa5e09d3ab38202c2c310[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 18:21:13 2023 +0300
+
+    trying to build a quiz
+
+[33mcommit d48a92b1e2d7228fb33c896a57ff166d9eec6384[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 13:16:25 2023 +0300
+
+    checking the response if it's 404 based on that return different view
+
+[33mcommit fd18e3c5b90d1f353689425c8a52a5d0eef7e82b[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 13:11:32 2023 +0300
+
+    checking the response if it's 404 based on that return different view
+
+[33mcommit 04e91c11f2ef9de234fc784620f97581872b4b14[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 12:55:36 2023 +0300
+
+    basic weather front end using openweather api.
+
+[33mcommit 9860416275af6d1e812d78e20fdfcaace814ac59[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 11:49:49 2023 +0300
+
+    chuck norris jokes
+
+[33mcommit b360e74760ead2f5d31e7b14668b524cab48778c[m
+Author: Давид Кръстев <106105745+davidchrastev@users.noreply.github.com>
+Date:   Tue Apr 25 11:09:19 2023 +0300
+
+    Initial commit
